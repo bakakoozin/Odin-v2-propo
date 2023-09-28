@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+}
+
+body {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 0.8em;
+    font-family: Manrope;
+    background-color: #262524;
+}
+
+a {
+    color: #dfdfdf;
+    text-decoration: none;
+}
+
+header {
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    padding: 5px 5px 5px 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    float: left;
+    position: fixed;
+    margin-top: 100px;
+}
+
+
+.section {
+    background-image: url("../public/logo_commun_arrd.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: rgba(255, 255, 255, 0.334);
+    margin-top: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: calc(100% - 430px);
+    height: 100%;border-radius: 70px;
+}
+
+p {
+    padding-top: 10px;
+    color: #dfdfdf;
+}
+
+.in-page {
+    color: #f4cb71;
+}
+
+h3 {
+    color: #0d4863;
+    font-size: 2em;
+    font-weight: bold;
+    border: 1px solid #0d4863;
+    border-radius: 5px;
+    padding-inline: 8px;
+
+}
+
+.highlight {
+    color: #378f6a;
+    font-weight: bold;
+}
+
+.underline {
+    color:#378f6a;
+    border-bottom:2px solid #f4cb71;
+}

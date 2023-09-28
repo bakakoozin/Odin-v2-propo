@@ -1,0 +1,14 @@
+.asso {
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #dfdfdf;
+    border-radius: 5px;
+    margin-inline: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #262524;
+    opacity: 95%;
+}
